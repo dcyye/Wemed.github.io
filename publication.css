@@ -13,38 +13,6 @@ body {
     padding: 20px;
 }
 
-header {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-bottom: 20px;
-}
-
-header input[type="text"] {
-    width: 80%;
-    padding: 10px;
-    font-size: 16px;
-    border: 1px solid #cccccc;
-    border-radius: 5px;
-    margin-bottom: 10px;
-    background-color: #ffffff !important;
-    /* 强制背景颜色为白色 */
-    color: #333333 !important;
-    /* 强制文本颜色为黑色 */
-}
-
-header input[type="text"]:focus {
-    outline: none;
-    /* 去除聚焦时的边框 */
-    box-shadow: 0 0 5px rgba(81, 203, 238, 1);
-    /* 添加聚焦时的阴影 */
-}
-
-header input[type="text"]::placeholder {
-    color: #999999;
-    /* 占位符颜色 */
-}
-
 .filter-buttons {
     display: flex;
     justify-content: center;
